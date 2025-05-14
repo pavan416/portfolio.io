@@ -27,26 +27,24 @@
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <h1 class="logo"><a href="index.html">Portfolio</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/one.png" alt="" class="img-fluid"></a>-->
+    <div class="container d-flex flex-column align-items-center">
 
       <nav id="navbar" class="navbar">
-        <ul>
+        <h1 class="logo"><a href="index.html" style="font-size: 25px; font-weight: bolder; text-align: left;"
+            class="d-flex justify-content-left">Portfolio</a></h1>
+        <ul class="d-flex justify-content-center">
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#Experience">Experience</a></li>
-          <li><a class="nav-link scrollto " href="#work">Work</a></li>
+          <li><a class="nav-link scrollto" href="#Experience">Exp</a></li>
+          <li><a class="nav-link scrollto" href="#Works">Work</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+      </nav>
 
     </div>
-  </header><!-- End Header -->
+  </header>
 
   <!-- ======= Hero Section ======= -->
   <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/hero-me.jpg)">
@@ -150,7 +148,7 @@
                     </p>
                     <ul>
                       <li>
-                        <a href="assets/img/Pavan Resume 2024.pdf" class="resume">
+                        <a href="assets/img/Pavan 2025 Resume.pdf" class="resume">
                           Download Resume
                         </a>
                       </li>
@@ -289,340 +287,40 @@
           </div>
         </div>
         </article>
-        <!-- Video Gallery Section -->
-        <section id="videoGallery" class="video-gallery section">
 
-          <!-- Section Title -->
-          <div class="container-fluid" data-aos="fade-up">
-            <div class="row">
-              <div class="col-sm-12">
-                <div class="title-box text-center">
-                  <h3 class="title-a">My Video Works</h3>
-                  <p class="subtitle-a">Below, I have provided few of my video works.</p>
-                  <div class="line-mf"></div>
-                </div>
+
+        <!-- Work section -->
+        <section class="my-works-section" id="Works">
+          <div class="container">
+            <h1 class="title-a text-center mb-2">My Works</h1>
+            <div class="line-mf mb-4"></div> <!-- Add margin below the line -->
+
+            <div class="row g-4 mb-2">
+              <div class="col-12 col-md-6 col-lg-4">
+                <a href="./Posts.html" class="data-card d-block">
+                  <h3>Posts</h3>
+                  <span class="link-text">View More</span>
+                </a>
               </div>
-            </div>
-            <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
-              <div class="swiper init-video-swiper">
-                <script type="application/json" class="video-swiper-config">
-            {
-              "loop": true,
-              "speed": 800,
-              "autoplay": {
-                "delay": 3000,
-                "disableOnInteraction": false
-              },
-              "slidesPerView": "auto",
-              "centeredSlides": true,
-              "pagination": {
-                "el": ".video-swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "navigation": {
-                "nextEl": ".swiper-button-next",
-                "prevEl": ".swiper-button-prev"
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 1,
-                  "spaceBetween": 10
-                },
-                "768": {
-                  "slidesPerView": 2,
-                  "spaceBetween": 20
-                },
-                "992": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 30
-                },
-                "1200": {
-                  "slidesPerView": 4,
-                  "spaceBetween": 40
-                }
-              }
-            }
-          </script>
-                <div class="swiper-wrapper align-items-center">
-                  <!-- Video Slides (14 videos) -->
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/1.mp4">
-                      <video src="assets/img/app-gallery/1.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/2.mp4">
-                      <video src="assets/img/app-gallery/2.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/3.mp4">
-                      <video src="assets/img/app-gallery/3.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/4.mp4">
-                      <video src="assets/img/app-gallery/4.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/5.mp4">
-                      <video src="assets/img/app-gallery/5.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/6.mp4">
-                      <video src="assets/img/app-gallery/6.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/7.mp4">
-                      <video src="assets/img/app-gallery/7.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/15.mp4">
-                      <video src="assets/img/app-gallery/15.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/16.mp4">
-                      <video src="assets/img/app-gallery/16.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/10.mp4">
-                      <video src="assets/img/app-gallery/10.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/11.mp4">
-                      <video src="assets/img/app-gallery/11.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/12.mp4">
-                      <video src="assets/img/app-gallery/12.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/13.mp4">
-                      <video src="assets/img/app-gallery/13.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/14.mp4">
-                      <video src="assets/img/app-gallery/14.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/5.mp4">
-                      <video src="assets/img/app-gallery/5.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/6.mp4">
-                      <video src="assets/img/app-gallery/6.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/7.mp4">
-                      <video src="assets/img/app-gallery/7.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/15.mp4">
-                      <video src="assets/img/app-gallery/15.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/16.mp4">
-                      <video src="assets/img/app-gallery/16.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/10.mp4">
-                      <video src="assets/img/app-gallery/10.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/11.mp4">
-                      <video src="assets/img/app-gallery/11.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/12.mp4">
-                      <video src="assets/img/app-gallery/12.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/13.mp4">
-                      <video src="assets/img/app-gallery/13.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/14.mp4">
-                      <video src="assets/img/app-gallery/14.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/8.mp4">
-                      <video src="assets/img/app-gallery/8.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/9.mp4">
-                      <video src="assets/img/app-gallery/9.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/17.mp4">
-                      <video src="assets/img/app-gallery/17.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/18.mp4">
-                      <video src="assets/img/app-gallery/18.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/19.mp4">
-                      <video src="assets/img/app-gallery/19.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/20.mp4">
-                      <video src="assets/img/app-gallery/20.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/21.mp4">
-                      <video src="assets/img/app-gallery/21.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/22.mp4">
-                      <video src="assets/img/app-gallery/22.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/23.mp4">
-                      <video src="assets/img/app-gallery/23.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/24.mp4">
-                      <video src="assets/img/app-gallery/24.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a class="glightbox" data-gallery="video-gallery" href="assets/img/app-gallery/25.mp4">
-                      <video src="assets/img/app-gallery/25.mp4" class="img-fluid" controls></video>
-                    </a>
-                  </div>
 
-                  <!-- Repeat similar blocks for 14 videos -->
-                  <!-- Add more video slides here -->
-                </div>
-                <!-- Navigation buttons -->
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <a href="./video.html" class="data-card d-block">
+                  <h3>Videos</h3>
+                  <span class="link-text">View More</span>
+                </a>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-4">
+                <a href="./others.html" class="data-card d-block">
+                  <h3>Others</h3>
+                  <span class="link-text">View More</span>
+                </a>
               </div>
             </div>
           </div>
         </section>
 
 
-        <section id="gallery" class="gallery section">
-          <!-- Section Title -->
-          <div class="container data-aos=" fade-up">
-            <div class="row">
-              <h3>Creatives</h3>
-            </div>
-
-            <div class="container" data-aos="fade-up" data-aos-delay="100">
-              <div class="swiper init-swiper ">
-                <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "centeredSlides": true,
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 1,
-                  "spaceBetween": 0
-                },
-                "768": {
-                  "slidesPerView": 1,
-                  "spaceBetween": 20
-                },
-                "1200": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 20
-                }
-              }
-            }
-          </script>
-                <div class="swiper-wrapper align-items-center style=" width: 400px; margin: 0 auto">
-                  <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
-                      href="assets/img/Work/1.jpg"><img src="assets/img/Work/1.jpg" class="img-fluid" alt=""></a></div>
-                  <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
-                      href="assets/img/Work/2.jpg"><img src="assets/img/Work/2.jpg" class="img-fluid" alt=""></a></div>
-                  <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
-                      href="assets/img/Work/3.jpg"><img src="assets/img/Work/3.jpg" class="img-fluid" alt=""></a></div>
-                  <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
-                      href="assets/img/Work/4.jpg"><img src="assets/img/Work/4.jpg" class="img-fluid" alt=""></a></div>
-                  <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
-                      href="assets/img/Work/5.jpg"><img src="assets/img/Work/5.jpg" class="img-fluid" alt=""></a></div>
-                  <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
-                      href="assets/img/Work/6.jpg"><img src="assets/img/Work/6.jpg" class="img-fluid" alt=""></a></div>
-                  <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
-                      href="assets/img/Work/7.jpg"><img src="assets/img/Work/7.jpg" class="img-fluid" alt=""></a></div>
-                  <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
-                      href="assets/img/Work/8.jpg"><img src="assets/img/Work/8.jpg" class="img-fluid" alt=""></a></div>
-                  <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
-                      href="assets/img/Work/9.jpg"><img src="assets/img/Work/9.jpg" class="img-fluid" alt=""></a></div>
-                  <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
-                      href="assets/img/Work/10.jpg"><img src="assets/img/Work/10.jpg" class="img-fluid" alt=""></a>
-                  </div>
-                  <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
-                      href="assets/img/Work/11.jpg"><img src="assets/img/Work/11.jpg" class="img-fluid" alt=""></a>
-                  </div>
-                  <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
-                      href="assets/img/Work/12.jpg"><img src="assets/img/Work/12.jpg" class="img-fluid" alt=""></a>
-                  </div>
-                  <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
-                      href="assets/img/Work/13.jpg"><img src="assets/img/Work/13.jpg" class="img-fluid" alt=""></a>
-                  </div>
-                  <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
-                      href="assets/img/Work/14.jpg"><img src="assets/img/Work/14.jpg" class="img-fluid" alt=""></a>
-                  </div>
-                  <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
-                      href="assets/img/Work/15.jpg"><img src="assets/img/Work/15.jpg" class="img-fluid" alt=""></a>
-                  </div>
-                  <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
-                      href="assets/img/Work/16.jpg"><img src="assets/img/Work/16.jpg" class="img-fluid" alt=""></a>
-                  </div>
-                  <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
-                      href="assets/img/Work/17.jpg"><img src="assets/img/Work/17.jpg" class="img-fluid" alt=""></a>
-                  </div>
-                </div>
-
-              </div>
-
-            </div>
-
-        </section><!-- /Gallery Section -->
 
 
         <!-- ======= Contact Section ======= -->

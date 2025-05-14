@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Video Gallery</title>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,300,100,700|Lato:400,100,700|Roboto:400,100,700"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,100,300,500,700" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #eee;
+            font-family: 'Lato', sans-serif;
+        }
+
+        /* Navbar */
+        nav {
+            width: 100%;
+            background-color: #111;
+            color: white;
+            padding: 15px 30px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /* Section Header */
+        .section-header {
+            text-align: center;
+            margin: 0 auto;
+            padding: 40px 20px 20px;
+            font: 900 60px 'Lato', sans-serif;
+            letter-spacing: 2px;
+            color: #000;
+        }
+
+        /* Gallery Styling */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .gallery-item-wrapper {
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            min-width: 280px;
+        }
+
+        .gallery-video {
+            width: 100%;
+            height: 500px;
+            /* Reel size approx (9:16) */
+        }
+
+        .text {
+            text-align: center;
+            padding: 10px;
+            background-color: #111;
+            color: #fff;
+            font: 100 16px 'Lato', sans-serif;
+        }
+
+        .span-text {
+            font-weight: 700;
+            letter-spacing: 1.2px;
+            font-size: 19px;
+            font-family: 'Alegreya Sans SC', sans-serif;
+        }
+
+        /* Responsive Behavior */
+        @media (max-width: 900px) {
+            .gallery-item-wrapper {
+                width: 45%;
+            }
+
+            .gallery-video {
+                height: 400px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .gallery-item-wrapper {
+                width: 100%;
+            }
+
+            .gallery-video {
+                height: 350px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html" style="color: white; text-decoration: none;">Portfolio</a>
+    </nav>
+
+    <div class="section-header">Video Works</div>
+
+    <div class="gallery">
+
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./New folder/New folder (2)/REEL 2.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./New folder/New folder (2)/REEL 3.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./New folder/New folder (2)/Reel 4.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./New folder/New folder (2)/Reel 5 - Copy.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./New folder/New folder (2)/REEL 6.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./New folder/New folder (2)/ATS - Tsunami (Official Music Video) _Telugu Pop Song_ Vampire Song (1).mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./assets/img/app-gallery/1.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./assets/img/app-gallery/2.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./assets/img/app-gallery/3.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./assets/img/app-gallery/4.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./assets/img/app-gallery/5.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./assets/img/app-gallery/6.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./assets/img/app-gallery/7.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./assets/img/app-gallery/8.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./assets/img/app-gallery/9.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./assets/img/app-gallery/10.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./assets/img/app-gallery/11.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./assets/img/app-gallery/12.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./assets/img/app-gallery/13.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./assets/img/app-gallery/14.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./assets/img/app-gallery/15.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./assets/img/app-gallery/16.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./assets/img/app-gallery/17.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./assets/img/app-gallery/18.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./assets/img/app-gallery/19.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./assets/img/app-gallery/20.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./assets/img/app-gallery/21.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./assets/img/app-gallery/22.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./assets/img/app-gallery/23.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./assets/img/app-gallery/24.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./assets/img/app-gallery/25.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="D:\Pavan\portfolio.io-main-updated\portfolio.io-main\portfolio.io-main\New folder\New folder (2)\REEL 1 .mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./assets/img/app-gallery/2.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./assets/img/app-gallery/3.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./assets/img/app-gallery/4.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./assets/img/app-gallery/5.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./assets/pdffloder/Skubiq 01.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <div class="gallery-item-wrapper">
+            <iframe class="gallery-video" src="./assets/pdffloder/Skubiq 02.mp4" frameborder="0" allowfullscreen></iframe>
+            <div class="text"><span class="span-text">VIDEO</span><br> </div>
+        </div>
+        <!-- Repeat to reach 30 videos -->
+    </div>
+
+</body>
+
+</html>
